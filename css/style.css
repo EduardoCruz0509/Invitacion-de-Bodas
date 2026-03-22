@@ -1,0 +1,215 @@
+:root {
+    --beige-fondo: #eaddca;
+    --blanco-card: #ffffff;
+    --texto-oscuro: #2c2c2c;
+    --dorado-suave: #b59a7d;
+    --hoja-color: #d2b48c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--beige-fondo);
+    display: flex;
+    justify-content: center;       
+    align-items: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Contenedor Principal (La Tarjeta) */
+.card-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    background-image: url('fondo.png') ;
+    background-size: cover;
+    background-repeat: no-repeat; /* Evita que la imagen se duplique */
+    background-position: center;
+    background-color: var(--blanco-card);
+    padding: 60px 30px;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    overflow: hidden; /* Para que las flores no se salgan */
+    text-align: center;
+}
+
+/* Decoraciones Florales (Simuladas con CSS) */
+.floral {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #fdf5e6;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.top-left {
+    top: -50px;
+    left: -50px;
+    background: radial-gradient(circle, #f5ecd7 0%, transparent 70%);
+}
+
+.bottom-right {
+    bottom: -50px;
+    right: -50px;
+    background: radial-gradient(circle, #f5ecd7 0%, transparent 70%);
+}
+
+.principal {
+    position: relative;
+    z-index: 1;
+}
+
+/* Tipografías */
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.palomas {
+    font-size: 1.5rem;
+}
+
+.our-wedding {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1rem;
+    color: var(--texto-oscuro);
+}
+
+.principal-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    margin: 15px 0;
+    color: var(--texto-oscuro);
+}
+.familia-section {
+    margin-bottom: 35px;
+    padding: 25px 0;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.bendicion { font-size: 0.8rem; font-style: italic; margin-bottom: 20px; }
+.padres-grid { display: flex; justify-content: space-between; margin-bottom: 25px; }
+.col { width: 48%; }
+.col p, .padrinos-box p { font-size: 0.85rem; line-height: 1.5; color: var(--texto-oscuro); }
+.padrinos-box h4 { color: var(--dorado-suave); font-size: 0.75rem; text-transform: uppercase; margin-bottom: 8px; }
+
+.date { font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-bottom: 15px; }
+.counter { display: flex; justify-content: center; gap: 20px; margin-bottom: 40px; }
+.number { font-size: 1.8rem; color: var(--dorado-suave); font-weight: 600; display: block; }
+
+.mensaje {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 25px;
+    padding: 0 10px;
+}
+
+.date {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    color: var(--texto-oscuro);
+    /*border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;*/
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+/* Contador Estilo Moderno */
+.counter {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.time-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--dorado-suave);
+    font-family: 'Playfair Display', serif;
+}
+
+.etiqueta {
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+    color: #999;
+}
+
+/* Invitado y Botón */
+.guest {
+    font-style: italic;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+    color: var(--texto-oscuro);
+}
+
+.btn-confirmar {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: transparent;
+    border: 1px solid var(--dorado-suave);
+    color: var(--dorado-suave);
+    text-decoration: none;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+
+.btn-confirmar:hover {
+    background-color: var(--dorado-suave);
+    color: white;
+}
+
+/* Ubicaciones con Iconos */
+.ubicaciones {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.lugar-item h3 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    margin: 10px 0 5px;
+    letter-spacing: 1px;
+}
+
+.lugar-item p {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.time {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.icon-wedding {
+    color: var(--dorado-suave);
+    font-size: 35px !important;
+}
