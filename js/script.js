@@ -43,7 +43,7 @@ const invitados = [
     { id: 42, invitado: "Jose Cruz", lugares: 2},
     { id: 43, invitado: "Gil Martinez", lugares: 2},
     { id: 44, invitado: "Erick Vargas", lugares: 4},
-    { id: 45, invitado: "Max", lugares: 2},
+    { id: 45, invitado: "Maximino Valencia", lugares: 2},
     { id: 46, invitado:"Adalberto Flores", lugares: 2}
 ];
 function whoIsInvite(){
