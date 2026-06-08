@@ -25,7 +25,7 @@ const invitados = [
     { id: 24, invitado: "Genoveva Cruz", lugares: 2 },
     { id: 25, invitado: "Catarino Fernandez", lugares: 2 },
     { id: 26, invitado: "Hermilo Martinez", lugares: 4 },
-    { id: 27, invitado: "Minerva Martinez", lugares: 5 },
+    { id: 27, invitado: "Minerva Martinez", lugares: 6 },
     { id: 28, invitado: "Geremias Alvarado", lugares: 8 },
     { id: 29, invitado: "Eduardo Cruz", lugares: 2 },
     { id: 30, invitado: "Pamela Cuevas", lugares: 2 },
@@ -42,9 +42,10 @@ const invitados = [
     { id: 41, invitado: "Enrique Garcia", lugares: 4 },
     { id: 42, invitado: "Jose Cruz", lugares: 2},
     { id: 43, invitado: "Gil Martinez", lugares: 2},
-    { id: 44, invitado: "Erick Vargas", lugares: 4},
+    { id: 44, invitado: "Erick Vargas", lugares: 5},
     { id: 45, invitado: "Maximino Valencia", lugares: 2},
-    { id: 46, invitado:"Adalberto Flores", lugares: 2}
+    { id: 46, invitado:"Adalberto Flores", lugares: 2},
+    { id: 47, invitado: "Rolando Flores", lugares: 2}
 ];
 function whoIsInvite(){
     const params = new URLSearchParams(window.location.search);
