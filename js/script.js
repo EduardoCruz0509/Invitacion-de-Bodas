@@ -1,11 +1,11 @@
 const invitados = [
     { id: 1, invitado: "Juan Recillas", lugares: 4 },
-    { id: 2, invitado: "Ivonne Recillas", lugares: 5 },
+    { id: 2, invitado: "Ivonne Recillas", lugares: 4 },
     { id: 3, invitado: "Elena Vargas", lugares: 2 },
     { id: 4, invitado: "Pamela López", lugares: 4 },
     { id: 5, invitado: "Elvira López", lugares: 4 },
     { id: 6, invitado: "Martha Vargas", lugares: 4 },
-    { id: 7, invitado: "Maria Elena Olivera", lugares: 3 },
+    { id: 7, invitado: "Maria Elena Olvera", lugares: 2 },
     { id: 8, invitado: "Martin Recillas", lugares: 4 },
     { id: 9, invitado: "Carmen Galicia", lugares: 9 },
     { id: 10, invitado: "Esperanza Galicia", lugares: 4 },
@@ -28,8 +28,8 @@ const invitados = [
     { id: 27, invitado: "Minerva Martinez", lugares: 6 },
     { id: 28, invitado: "Geremias Alvarado", lugares: 8 },
     { id: 29, invitado: "Eduardo Cruz", lugares: 2 },
-    { id: 30, invitado: "Pamela Cuevas", lugares: 2 },
-    { id: 31, invitado: "Liliana Cruz", lugares: 2 },
+    { id: 30, invitado: "Pamela Cuevas", lugares: 1 },
+    { id: 31, invitado: "Liliana Cruz", lugares: 1 },
     { id: 32, invitado: "Ricardo Fuentes", lugares: 2 },
     { id: 33, invitado: "Liliana Rosas", lugares: 2 },
     { id: 34, invitado: "Maria Guerrero", lugares: 2 },
@@ -46,7 +46,8 @@ const invitados = [
     { id: 45, invitado: "Maximino Valencia", lugares: 2},
     { id: 46, invitado:"Adalberto Flores", lugares: 2},
     { id: 47, invitado: "Rolando Flores", lugares: 2},
-    { id: 48, invitado: "Ricardo Martinez", lugares: 3}
+    { id: 48, invitado: "Ricardo Martinez", lugares: 3},
+    { id: 49, invitado: "Felix Galicia", lugares: 5}
 ];
 function whoIsInvite(){
     const params = new URLSearchParams(window.location.search);
