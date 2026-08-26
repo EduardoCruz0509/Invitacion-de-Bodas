@@ -47,7 +47,8 @@ const invitados = [
     { id: 46, invitado:"Adalberto Flores", lugares: 2},
     { id: 47, invitado: "Rolando Flores", lugares: 2},
     { id: 48, invitado: "Ricardo Martinez", lugares: 3},
-    { id: 49, invitado: "Felix Galicia", lugares: 5}
+    { id: 49, invitado: "Felix Galicia", lugares: 5},
+    { id: 50, invitado: "Rodrigo Polenciano", lugares: 2}
 ];
 function whoIsInvite(){
     const params = new URLSearchParams(window.location.search);
