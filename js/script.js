@@ -40,15 +40,15 @@ const invitados = [
     { id: 39, invitado: "Roberto Garcia", lugares: 3 },
     { id: 40, invitado: "Jesus Garcia", lugares: 4 },
     { id: 41, invitado: "Enrique Garcia", lugares: 4 },
-    { id: 42, invitado: "Jose Cruz", lugares: 2},
-    { id: 43, invitado: "Gil Martinez", lugares: 2},
-    { id: 44, invitado: "Erick Vargas", lugares: 5},
-    { id: 45, invitado: "Maximino Valencia", lugares: 2},
-    { id: 46, invitado:"Adalberto Flores", lugares: 2},
-    { id: 47, invitado: "Rolando Flores", lugares: 2},
-    { id: 48, invitado: "Ricardo Martinez", lugares: 3},
-    { id: 49, invitado: "Felix Galicia", lugares: 5},
-    { id: 50, invitado: "Rodrigo Polenciano", lugares: 2}
+    { id: 42, invitado: "Jose Cruz", lugares: 2 },
+    { id: 43, invitado: "Gil Martinez", lugares: 2 },
+    { id: 44, invitado: "Erick Vargas", lugares: 5 },
+    { id: 45, invitado: "Maximino Valencia", lugares: 2 },
+    { id: 46, invitado:"Adalberto Flores", lugares: 2 },
+    { id: 47, invitado: "Rolando Flores", lugares: 2 },
+    { id: 48, invitado: "Ricardo Martinez", lugares: 3 },
+    { id: 49, invitado: "Felix Galicia", lugares: 5 },
+    { id: 50, invitado: "Rodrigo Polenciano", lugares: 2 }
 ];
 function whoIsInvite(){
     const params = new URLSearchParams(window.location.search);
