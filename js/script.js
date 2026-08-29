@@ -1,18 +1,18 @@
 const invitados = [
     { id: 1, invitado: "Juan Recillas", lugares: 4 },
     { id: 2, invitado: "Ivonne Recillas", lugares: 4 },
-    { id: 3, invitado: "Elena Vargas", lugares: 2 },
+    { id: 3, invitado: "Elena Vargas", lugares: 1 },
     { id: 4, invitado: "Pamela López", lugares: 4 },
     { id: 5, invitado: "Elvira López", lugares: 4 },
     { id: 6, invitado: "Martha Vargas", lugares: 4 },
     { id: 7, invitado: "Maria Elena Olvera", lugares: 2 },
     { id: 8, invitado: "Martin Recillas", lugares: 4 },
-    { id: 9, invitado: "Carmen Galicia", lugares: 9 },
+    { id: 9, invitado: "Carmen Galicia", lugares: 10 },
     { id: 10, invitado: "Esperanza Galicia", lugares: 4 },
     { id: 11, invitado: "Valeria Trejo", lugares: 2 },
     { id: 12, invitado: "Jaime Galicia", lugares: 3 },
     { id: 13, invitado: "Juan Galicia", lugares: 4 },
-    { id: 14, invitado: "Fermin Vargas", lugares: 4 },
+    { id: 14, invitado: "Fermin Vargas", lugares: 5 },
     { id: 15, invitado: "Raul Martinez", lugares: 2 },
     { id: 16, invitado: "Flor Martinez", lugares: 1 },
     { id: 17, invitado: "Raul Matinez Cruz", lugares: 1 },
@@ -42,13 +42,15 @@ const invitados = [
     { id: 41, invitado: "Enrique Garcia", lugares: 4 },
     { id: 42, invitado: "Jose Cruz", lugares: 2 },
     { id: 43, invitado: "Gil Martinez", lugares: 2 },
-    { id: 44, invitado: "Erick Vargas", lugares: 5 },
+    { id: 44, invitado: "Erick Vargas", lugares: 3 },
     { id: 45, invitado: "Maximino Valencia", lugares: 2 },
-    { id: 46, invitado:"Adalberto Flores", lugares: 2 },
+    { id: 46, invitado: "Adalberto Flores", lugares: 2 },
     { id: 47, invitado: "Rolando Flores", lugares: 2 },
     { id: 48, invitado: "Ricardo Martinez", lugares: 3 },
     { id: 49, invitado: "Felix Galicia", lugares: 5 },
-    { id: 50, invitado: "Rodrigo Polenciano", lugares: 2 }
+    { id: 50, invitado: "Rodrigo Polenciano", lugares: 2 },
+    { id: 51, invitado: "Mariana Itzel Sanchez Rodriguez", lugares: 2 },
+    { id: 52, invitado: "Iker Vargas", lugares: 2 }
 ];
 function whoIsInvite(){
     const params = new URLSearchParams(window.location.search);
